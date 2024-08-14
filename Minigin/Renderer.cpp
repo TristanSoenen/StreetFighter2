@@ -37,8 +37,6 @@ void dae::Renderer::Init(SDL_Window* window)
 	ImGui::CreateContext();
 	ImGui_ImplSDL2_InitForOpenGL(window, SDL_GL_GetCurrentContext());
 	ImGui_ImplOpenGL3_Init();
-
-	//m_TrashTheCashe = new dae::TrashTheCashe();
 }
 
 void dae::Renderer::Render() const
